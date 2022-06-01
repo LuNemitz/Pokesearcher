@@ -1,0 +1,31 @@
+footer{
+    position: fixed;
+    font-family: var(--font-normal);
+   left: 0%;
+   bottom: 0%;
+   width: 100%;
+   font-size: 25px;
+   text-align: center;
+
+}
+
+html{
+    
+    background-color: rgb(245, 247, 140);
+}
+
+
+h2 {
+    text-decoration-line: underline;
+    text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+    color:rgb(255, 251, 10);
+    text-align:center;
+    margin: 0%;
+    top:0px;
+    border-style: double;
+    background-color: rgb(54, 90, 248);
+}
