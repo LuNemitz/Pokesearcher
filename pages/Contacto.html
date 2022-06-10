@@ -21,19 +21,40 @@
                 </ul>
         </nav>
     </header>
-    <h2>Contacto</h2>
-    <form action="ejemplo.php" method="get">
-        <p>Nombre: <input type="text" name="nombre" size="40"></p>
-        <p>Año de nacimiento: <input type="number" name="nacido" min="1900"></p>
-        <p>Sexo:
-          <input type="radio" name="hm" value="h"> Hombre
-          <input type="radio" name="hm" value="m"> Mujer
-        </p>
-        <p>
-          <input type="submit" value="Enviar">
-          <input type="reset" value="Borrar">
-        </p>
+    <div class="form">  
+      <h2>Contacto</h2>
+
+      <form>
+        <!-- Name input -->
+        <div class="form-outline mb-4">
+          <input type="text" id="form4Example1" class="form-control" />
+          <label class="form-label" for="form4Example1">Name</label>
+        </div>
+      
+        <!-- Email input -->
+        <div class="form-outline mb-4">
+          <input type="email" id="form4Example2" class="form-control" />
+          <label class="form-label" for="form4Example2">Email address</label>
+        </div>
+      
+        <!-- Message input -->
+        <div class="form-outline mb-4">
+          <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+          <label class="form-label" for="form4Example3">Message</label>
+        </div>
+      
+        <!-- Checkbox -->
+        <div class="form-check d-flex justify-content-center mb-4">
+          <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
+          <label class="form-check-label" for="form4Example4">
+            Send me a copy of this message
+          </label>
+        </div>
+      
+        <!-- Submit button -->
+        <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
       </form>
+    </div>
 <footer>
     <span>Derechos de autor-Lucia Nemitz</span>
 </footer>

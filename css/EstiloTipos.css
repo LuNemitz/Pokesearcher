@@ -1,3 +1,33 @@
+
+    .navbar {
+        margin-bottom: 0;
+        border-radius: 0;
+      }
+      
+      .row.content {height: 450px}
+      
+      .sidenav {
+        padding-top: 20px;
+        background-color: #f1f1f1;
+        height: 100%;
+      }
+      
+      footer {
+        background-color: #555;
+        color: white;
+        padding: 15px;
+      }
+      
+      @media screen and (max-width: 767px) {
+        .sidenav {
+          height: auto;
+          padding: 15px;
+        }
+        .row.content {height:auto;} 
+      }
+
+
+
 .container {
     display: grid;
     grid-template-columns: 50vw 50vw;
@@ -46,10 +76,10 @@
 
     .tipos{
         display: flex;
-grid-column-start: 1;
-grid-column-end: 3;
-flex-direction: column;
-align-items: center;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        flex-direction: row;
+        align-items: flex-start;
     }
 
 
@@ -58,14 +88,15 @@ align-items: center;
 
 
 h1 {
-        font-size: 80px;
-     color:rgb(255, 251, 10);
-     text-align:center;
-     margin: 0%;
-     top:0px;
-     border-style: double;
-     background-color: rgb(54, 90, 248);
+    font-size: 80px;
+  color: black;
+  text-align: center;
+  margin: 0%;
+  top: 0px;
+  border-style: double;
+  background-color: #EEC3DD;
 }
+
 
 
 
@@ -82,7 +113,8 @@ h1 {
 
 html{
     
-    background-color: rgb(245, 247, 140);
+    background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
+    
 }
 
 

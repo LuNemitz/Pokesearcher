@@ -1,4 +1,30 @@
 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    .row.content {height: 450px}
+    
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
 
 
 
@@ -13,10 +39,7 @@ footer{
 
 }  
 
-html{
-    
-    background-color: rgb(245, 247, 140);
-}
+
 
 
 h2 {
@@ -33,3 +56,33 @@ h1 {
     border-style: double;
     background-color: rgb(54, 90, 248);
 }
+
+ul {
+    list-style-type: circle;
+  }
+
+  
+  h2 {
+    text-decoration-line: underline;
+    text-align: center;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  footer {
+    position: fixed;
+    font-family: var(--font-normal);
+    left: 0%;
+    bottom: 0%;
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  * {
+    background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
+    
+  }
+  
